@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = [
-    os.getenv("RENDER_EXTERNAL_HOSTNAME", "localhost"),
+    os.getenv("RENDER_EXTERNAL_HOSTNAME"),
 ]
 
 
