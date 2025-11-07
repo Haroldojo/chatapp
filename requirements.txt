@@ -1,10 +1,26 @@
-Django>=5.0
-djangorestframework>=3.15.0
-gunicorn>=21.2.0
-whitenoise>=6.6.0
-dj-database-url>=2.1.0
-python-dotenv>=1.0.1
-psycopg2-binary>=2.9.9
-requests>=2.32.0
-django-cors-headers>=4.4.0
-python-decouple>=3.8
+# Core Django stack
+Django==5.2.8
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+whitenoise==6.11.0
+
+# Database + environment configuration
+dj-database-url==3.0.1
+python-dotenv==1.2.1
+python-decouple==3.8
+
+# PostgreSQL driver (use psycopg2-binary for Render compatibility)
+psycopg2-binary==2.9.11
+
+# Production server
+gunicorn==23.0.0
+
+# Networking / API calls
+requests==2.32.5
+
+# Groq LLM SDK
+groq==0.33.0
+
+# Optional — timezone data for Django on servers
+tzdata==2025.2
+
