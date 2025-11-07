@@ -6,3 +6,4 @@ dj-database-url
 python-dotenv
 psycopg2-binary
 requests
+psycopg2-binary
