@@ -5,6 +5,7 @@ __pycache__/
 .venv/
 env/
 .env
+promptenv
 
 # Node / React
 node_modules/
